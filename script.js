@@ -22,6 +22,13 @@ const contactEmail = 'yocreoen@miparaguay.com.py';
 const whatsappNumber = '595981402416';
 
 if (contactForm && contactStatus) {
+  document.querySelectorAll('[data-contact-motive]').forEach((link) => {
+    link.addEventListener('click', () => {
+      contactForm.elements.motivo.value = link.dataset.contactMotive;
+      contactStatus.textContent = `Motivo seleccionado: ${link.dataset.contactMotive}.`;
+    });
+  });
+
   contactForm.addEventListener('input', () => {
     contactForm.elements.correo.setCustomValidity('');
     contactForm.elements.telefono.setCustomValidity('');

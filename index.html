@@ -30,6 +30,7 @@
       <nav id="navigation" class="navigation" aria-label="Navegación principal">
         <a href="#proposito">Qué hacemos</a>
         <a href="#proyectos">Proyectos</a>
+        <a href="#bacheame">Bacheame</a>
         <a href="#carrusel">Carrusel</a>
         <a class="nav-cta" href="#participar">Participar</a>
       </nav>
@@ -44,7 +45,7 @@
             Mi Paraguay convierte conocimiento ciudadano en proyectos concretos que generan valor público y construyen su propia sostenibilidad.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="ikuaalomita/">Conocer el primer proyecto</a>
+            <a class="button button-primary" href="#proyectos">Conocer los proyectos</a>
             <a class="button button-secondary" href="#proposito">Cómo funciona</a>
           </div>
         </div>
@@ -117,7 +118,10 @@
             <span>Propuesta presentada oficialmente ante la Mesa de Entrada Central del Ministerio de Educación y Ciencias.</span>
             <span class="project-reference">Recibida el 14 de septiembre de 2026 · Expediente N.º 242.046 · Pendiente de evaluación institucional</span>
           </div>
-          <a class="text-link" href="ikuaalomita/">Conocer el proyecto completo <span aria-hidden="true">↗</span></a>
+          <div class="project-actions">
+            <a class="button button-primary" href="#participar" data-contact-motive="Quiero llevar Ikuaa Lo Mitã a mi colegio">Quiero llevarlo a mi colegio</a>
+            <a class="text-link" href="ikuaalomita/">Conocer el proyecto completo <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </section>
 
@@ -203,6 +207,40 @@
         </div>
       </section>
 
+      <section class="projects projects-bacheame section" id="bacheame">
+        <div class="project-visual bacheame-visual">
+          <img
+            src="assets/bacheame-app.jpg"
+            alt="Concepto visual de la aplicación móvil Bacheame con mapa y reporte fotográfico"
+          />
+          <div class="project-status"><span></span> Segundo proyecto</div>
+        </div>
+
+        <div class="project-copy">
+          <p class="eyebrow">Bacheame</p>
+          <h2>Reportes ciudadanos para decisiones viales más precisas</h2>
+          <p class="project-intro">
+            Una aplicación paraguaya para teléfonos Android que permitirá fotografiar un bache desde un lugar seguro, registrar su ubicación exacta y compartir el caso con la municipalidad correspondiente.
+          </p>
+
+          <dl class="project-facts">
+            <div><dt>Android</dt><dd>primera fase</dd></div>
+            <div><dt>Lambaré</dt><dd>municipalidad piloto</dd></div>
+            <div><dt>90 días</dt><dd>validación inicial</dd></div>
+          </dl>
+
+          <div class="project-note">
+            <strong>Estado actual</strong>
+            <span>Proyecto en estructuración y búsqueda de una empresa aliada que ayude a financiar el desarrollo y la continuidad inicial.</span>
+            <span class="project-reference">El patrocinio no concede acceso a datos personales ni control sobre la prioridad de los reportes.</span>
+          </div>
+          <div class="project-actions">
+            <a class="button button-primary" href="#participar" data-contact-motive="Quiero llevar Bacheame a mi municipio">Quiero llevarlo a mi municipio</a>
+            <a class="text-link" href="bacheame/">Conocer Bacheame <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
       <section class="carousel-section section" id="carrusel">
         <div class="carousel-kicker">Visión de largo plazo</div>
         <div class="carousel-content">
@@ -222,9 +260,12 @@
             <p class="eyebrow">Hagámoslo posible</p>
             <h2>Conversemos sobre cómo mejorar Paraguay.</h2>
           </div>
-          <p>
-            Podés aportar conocimiento, presentar una propuesta o explorar una alianza para Ikuaa Lo Mitã. Elegí el canal que te resulte más cómodo.
-          </p>
+          <div class="contact-heading-action">
+            <p>
+              Podés llevar un proyecto a tu institución, aportar conocimiento, presentar una propuesta o ayudar a sostener estas iniciativas.
+            </p>
+            <a class="button button-light" href="#contact-form" data-contact-motive="Quiero ser auspiciante">Quiero ser auspiciante</a>
+          </div>
         </div>
 
         <div class="contact-layout">
@@ -273,9 +314,12 @@
                 Motivo de contacto <span aria-hidden="true">*</span>
                 <select name="motivo" required>
                   <option value="">Seleccioná una opción</option>
-                  <option>Quiero conocer Ikuaa Lo Mitã</option>
+                  <option>Quiero llevar Ikuaa Lo Mitã a mi colegio</option>
+                  <option>Represento al MEC o a una institución educativa</option>
+                  <option>Quiero llevar Bacheame a mi municipio</option>
+                  <option>Quiero ser auspiciante</option>
                   <option>Quiero aportar conocimiento</option>
-                  <option>Quiero explorar una alianza o auspicio</option>
+                  <option>Quiero explorar otra alianza</option>
                   <option>Quiero presentar una idea</option>
                   <option>Prensa o comunicación</option>
                   <option>Otro motivo</option>
@@ -316,6 +360,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260921-audiencias"></script>
   </body>
 </html>

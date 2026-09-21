@@ -1,2 +1,23 @@
-# miparaguay-web
-Portal institucional de Mi Paraguay y del proyecto de educación vial Ikuaa Lo Mitã.
+# Portal Mi Paraguay
+
+Sitio estático de Mi Paraguay y de sus proyectos Ikuaa Lo Mitã y Bacheame.
+
+## Archivos principales
+
+- `index.html`: landing principal.
+- `styles.css`: estilos generales y sistema visual de la marca.
+- `script.js`: menú móvil y formulario de contacto.
+- `ikuaalomita/index.html`: subpágina institucional del primer proyecto.
+- `ikuaalomita/ikuaa.css`: estilos específicos de Ikuaa Lo Mitã.
+- `bacheame/index.html`: subpágina institucional del segundo proyecto.
+- `bacheame/bacheame.css`: estilos específicos de Bacheame.
+- `assets/`: logo, favicon y recursos gráficos.
+
+## Vista previa local
+
+Servir esta carpeta con cualquier servidor web estático. Las rutas de los proyectos deben abrirse como `/ikuaalomita/` y `/bacheame/`.
+
+## Contacto configurado
+
+- Correo: `yocreoen@miparaguay.com.py`
+- WhatsApp: `595981402416`
