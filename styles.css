@@ -263,8 +263,10 @@ img { display: block; max-width: 100%; }
   color: var(--white);
 }
 .projects-bacheame .project-visual img {
-  aspect-ratio: 1.08 / 1;
+  aspect-ratio: 130 / 76;
+  object-fit: contain;
   object-position: center;
+  background: #0a3066;
   border-radius: 64px 0 0 0;
 }
 .projects-bacheame .project-status span { background: var(--bacheame-green); }
