@@ -284,6 +284,19 @@ img { display: block; max-width: 100%; }
 .projects-bacheame .project-actions .button-primary { background: var(--bacheame-orange); }
 .projects-bacheame .project-actions .button-primary:hover { background: #d94f0b; }
 
+.projects-pirapire { background: #fbf7ec; }
+.projects-pirapire .project-visual img {
+  aspect-ratio: 1672 / 940;
+  object-fit: contain;
+  background: #fbf7ec;
+  border-radius: 0 64px 0 0;
+}
+.projects-pirapire .project-status span { background: #b65c42; }
+.projects-pirapire .eyebrow { color: #a84d37; }
+.projects-pirapire .project-copy h2 { color: #193d38; }
+.projects-pirapire .project-actions .button-primary { background: #193d38; }
+.projects-pirapire .project-actions .button-primary:hover { background: #315f51; }
+
 .numbers { background: var(--sky); }
 .numbers-heading {
   display: grid;

@@ -1,6 +1,6 @@
 # Portal Mi Paraguay
 
-Sitio estático de Mi Paraguay y de sus proyectos Ikuaa Lo Mitã y Bacheame.
+Sitio estático de Mi Paraguay y de los proyectos Ikuaa Lo Mitã, Bacheame y Pirapire Ñongatu.
 
 ## Archivos principales
 
@@ -15,7 +15,7 @@ Sitio estático de Mi Paraguay y de sus proyectos Ikuaa Lo Mitã y Bacheame.
 
 ## Vista previa local
 
-Servir esta carpeta con cualquier servidor web estático. Las rutas de los proyectos deben abrirse como `/ikuaalomita/` y `/bacheame/`.
+Servir esta carpeta con cualquier servidor web estático. Las rutas de los proyectos deben abrirse como `/ikuaalomita/`, `/bacheame/` y `/pirapire-nongatu/`.
 
 ## Contacto configurado
 
