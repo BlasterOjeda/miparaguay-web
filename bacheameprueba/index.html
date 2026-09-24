@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bacheame Beta · Descargar para Android</title>
+  <meta name="description" content="Descargá la versión Beta de Bacheame para Android y ayudanos a probarla en el Gran Asunción." />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#0A3066" />
+  <meta property="og:title" content="Bacheame Beta para Android" />
+  <meta property="og:description" content="Reportá baches con foto y ubicación. Descargá la Beta y ayudanos a probarla." />
+  <meta property="og:image" content="https://miparaguay.com.py/bacheameprueba/logo.png" />
+  <link rel="icon" href="icono.png" />
+  <style>
+    :root { --navy: #0A3066; --orange: #F26419; --amber: #F5A623; --green: #38AF4B; --ink: #1B2533; --muted: #5B6778; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: #F6F8FB; }
+    .top { background: var(--navy); color: #fff; text-align: center; padding: 28px 16px 36px; }
+    .top img { width: min(220px, 60vw); height: auto; display: block; margin: 0 auto 14px; }
+    .badge { display: inline-block; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--amber); color: var(--amber); font-weight: 800; font-size: .8rem; letter-spacing: .08em; }
+    main { max-width: 560px; margin: -18px auto 0; padding: 0 16px 40px; }
+    .card { background: #fff; border-radius: 20px; padding: 22px; box-shadow: 0 8px 24px rgba(10,48,102,.08); margin-bottom: 16px; }
+    h1 { font-size: 1.5rem; line-height: 1.2; margin: 0 0 8px; color: var(--navy); }
+    h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--navy); }
+    p { margin: 0 0 12px; }
+    .muted { color: var(--muted); font-size: .95rem; }
+    .download { display: block; text-align: center; background: var(--orange); color: #fff; text-decoration: none; font-weight: 800; font-size: 1.1rem; padding: 16px; border-radius: 14px; margin: 16px 0 8px; }
+    .download:active { transform: translateY(1px); }
+    .small { font-size: .85rem; color: var(--muted); text-align: center; margin: 0; }
+    .beta { background: #FFF6E5; border: 1px solid #F3D9AE; }
+    ol { padding-left: 1.2rem; margin: 0; }
+    li { margin-bottom: 8px; }
+    .safety { display: flex; gap: 10px; align-items: flex-start; background: var(--amber); color: #1b1b1b; border-radius: 14px; padding: 14px; font-weight: 600; }
+    .hash { font-size: .7rem; color: var(--muted); word-break: break-all; margin-top: 10px; }
+    a { color: var(--orange); }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 8px 16px 32px; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <img src="logo.png" alt="Bacheame · Reporta y Mejora" width="560" height="618" />
+    <span class="badge">VERSIÓN BETA · 0.9.2</span>
+  </header>
+
+  <main>
+    <section class="card">
+      <h1>Probá Bacheame en tu Android</h1>
+      <p>Sacale una foto a un bache desde un lugar seguro, marcá dónde está y seguí el caso hasta que lo reparen.</p>
+      <a class="download" href="../descargas/Bacheame-Beta-0.9.2.apk" download>Descargar Bacheame Beta (23 MB)</a>
+      <p class="small">Para Android 7.0 o superior. Por ahora no hay versión para iPhone.</p>
+    </section>
+
+    <section class="card beta">
+      <h2>Es una versión Beta</h2>
+      <p>Ya se puede usar, pero todavía puede tener errores y va a cambiar con lo que aprendamos. Durante la Beta se aceptan reportes dentro del <strong>Gran Asunción</strong>.</p>
+      <p class="muted">¿Encontraste un error o tenés una idea? Escribinos a <a href="mailto:yocreoen@miparaguay.com.py?subject=Bacheame%20Beta">yocreoen@miparaguay.com.py</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Cómo instalarla</h2>
+      <ol>
+        <li>Tocá <strong>Descargar</strong> desde el teléfono.</li>
+        <li>Abrí el archivo desde las notificaciones o la carpeta <em>Descargas</em>.</li>
+        <li>Si Android lo pide, permití <em>instalar apps desconocidas</em> para tu navegador.</li>
+        <li>Tocá <strong>Instalar</strong> y abrí Bacheame.</li>
+        <li>Ingresá con tu cuenta de Google. Tu nombre y tu correo no se publican.</li>
+      </ol>
+      <p class="muted" style="margin-top:12px">Como la app todavía no está en Google Play, el teléfono puede mostrar un aviso de Play Protect. Es normal en una Beta: la app está firmada por Bacheame.</p>
+      <p class="hash">SHA-256: fe6450f7ef883c129946481ded066827831d3809b6bde72c7440b00d70fdd216</p>
+    </section>
+
+    <div class="safety" role="note">
+      <span aria-hidden="true">⚠️</span>
+      <span>Nunca uses Bacheame mientras conducís. Reportá solo desde la vereda o un lugar seguro.</span>
+    </div>
+  </main>
+
+  <footer>
+    <a href="../bacheame/">Conocé el proyecto Bacheame</a> · Mi Paraguay<br />© 2026 Blas Ojeda Chamorro. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
