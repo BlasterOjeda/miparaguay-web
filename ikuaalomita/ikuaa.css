@@ -120,6 +120,16 @@
 .request-list p { margin: 0; color: var(--muted); }
 .request-list strong { color: var(--navy); }
 
+.channel-section { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr); gap: clamp(3rem, 7vw, 7rem); align-items: center; background: var(--sky); }
+.channel-copy > p:not(.eyebrow) { max-width: 66ch; margin: 1.5rem 0 0; color: var(--navy-soft); font-size: 1.08rem; }
+.channel-copy .text-link { display: flex; width: fit-content; max-width: 100%; margin-top: 1.2rem; }
+.channel-card { min-height: 320px; padding: clamp(2rem, 4vw, 4rem); display: flex; flex-direction: column; justify-content: center; gap: 1.1rem; color: var(--white); background: var(--navy); border-top: 7px solid var(--red); }
+.channel-card:hover { background: var(--navy-soft); }
+.channel-card:focus-visible { outline: 4px solid var(--red); outline-offset: 4px; }
+.channel-card-label { color: var(--yellow); font-size: 0.8rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
+.channel-card strong { max-width: 9ch; font-size: clamp(2.5rem, 5vw, 4.8rem); line-height: 1; letter-spacing: -0.06em; }
+.channel-card > span:last-child { color: #d6e1ec; }
+
 .instagram-section { display: grid; grid-template-columns: 0.7fr 1.3fr; gap: clamp(3rem, 7vw, 7rem); align-items: center; color: var(--white); background: var(--navy); }
 .instagram-copy h2 { color: var(--white); }
 .instagram-copy > p:not(.eyebrow) { margin-top: 1.5rem; color: #d6e1ec; font-size: 1.08rem; }
@@ -152,6 +162,7 @@
   .legal-section,
   .funding-section,
   .request-section,
+  .channel-section,
   .instagram-section { grid-template-columns: 1fr; }
   .cycle { grid-template-columns: 1fr; gap: 1.2rem; }
   .character-stages { grid-template-columns: 1fr; }

@@ -399,6 +399,7 @@ img { display: block; max-width: 100%; }
 .carousel-kicker { font-size: 0.78rem; font-weight: 850; letter-spacing: 0.14em; text-transform: uppercase; align-self: start; }
 .carousel-content h2 { color: var(--white); }
 .carousel-content p { max-width: 650px; font-size: 1.18rem; color: #e6f5fc; }
+.carousel-content .text-link { color: var(--yellow); }
 .carousel-orbit {
   width: min(30vw, 340px);
   aspect-ratio: 1;
@@ -588,7 +589,7 @@ img { display: block; max-width: 100%; }
   .hero h1 { font-size: clamp(3.35rem, 17vw, 5rem); }
   .hero-actions, .hero-actions .button { width: 100%; }
   .project-facts { grid-template-columns: 1fr; }
-  .project-facts div { display: grid; grid-template-columns: 80px 1fr; align-items: end; }
+  .project-facts div { display: grid; grid-template-columns: 1fr; gap: 0.2rem; align-items: start; }
   .project-visual img { aspect-ratio: 4 / 5; }
   .numbers-grid { grid-template-columns: 1fr; }
   .numbers-grid article, .numbers-grid article:nth-child(2) { border-right: 0; border-bottom: 1px solid rgba(7, 28, 51, 0.22); padding: 1.7rem 0; }
