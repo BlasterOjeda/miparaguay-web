@@ -124,6 +124,8 @@
 .channel-copy > p:not(.eyebrow) { max-width: 66ch; margin: 1.5rem 0 0; color: var(--navy-soft); font-size: 1.08rem; }
 .channel-copy .text-link { margin-top: 2rem; }
 .channel-card { min-height: 320px; padding: clamp(2rem, 4vw, 4rem); display: flex; flex-direction: column; justify-content: center; gap: 1.1rem; color: var(--white); background: var(--navy); border-top: 7px solid var(--red); }
+.channel-card:hover { background: var(--navy-soft); }
+.channel-card:focus-visible { outline: 4px solid var(--red); outline-offset: 4px; }
 .channel-card-label { color: var(--yellow); font-size: 0.8rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
 .channel-card strong { max-width: 9ch; font-size: clamp(2.5rem, 5vw, 4.8rem); line-height: 1; letter-spacing: -0.06em; }
 .channel-card > span:last-child { color: #d6e1ec; }
