@@ -456,6 +456,8 @@ img { display: block; max-width: 100%; }
 .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.15rem; }
 .form-grid label { display: grid; gap: 0.45rem; font-size: 0.84rem; font-weight: 800; }
 .form-grid label > span { color: var(--red); }
+.form-grid .lbl { font-weight: inherit; }
+.form-grid .lbl > span { color: var(--red); }
 .form-full { grid-column: 1 / -1; }
 .form-grid input,
 .form-grid select,
@@ -474,6 +476,11 @@ img { display: block; max-width: 100%; }
 .form-grid select:focus,
 .form-grid textarea:focus { outline: 3px solid rgba(23, 118, 185, 0.22); border-color: var(--blue); }
 .form-help { margin: 1rem 0 0; color: var(--muted); font-size: 0.78rem; }
+.form-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.form-consent { display: flex; align-items: flex-start; gap: 0.7rem; margin-top: 1.1rem; font-size: 0.84rem; font-weight: 600; line-height: 1.45; cursor: pointer; }
+.form-consent input { flex: none; width: 1.15rem; height: 1.15rem; margin-top: 0.15rem; accent-color: var(--red); }
+.form-consent b { color: var(--red); }
+.form-consent a { color: var(--blue); }
 .form-actions { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.8rem; }
 .form-actions button { border: 0; cursor: pointer; font-size: 0.94rem; }
 .form-actions .button-light { background: var(--red); color: var(--white); }

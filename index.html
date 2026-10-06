@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://miparaguay.com.py/" />
     <meta property="og:image" content="https://miparaguay.com.py/assets/mi-paraguay-logo.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="styles.css?v=20260929-revision" />
+    <link rel="stylesheet" href="styles.css?v=20261006-formulario" />
   </head>
   <body>
     <a class="skip-link" href="#contenido">Ir al contenido</a>
@@ -103,7 +103,7 @@
         <div class="project-visual">
           <img
             src="assets/tallerito.jpg"
-            alt="Tallerito, personaje del programa Ikuaa Lo Mitã, en un taller educativo de seguridad vial"
+            alt="Zorry y Tallerito, los personajes del programa Ikuaa Lo Mitã, en un taller educativo de seguridad vial"
           />
           <div class="project-status"><span></span> Primer proyecto</div>
         </div>
@@ -112,7 +112,7 @@
           <p class="eyebrow">Ikuaa Lo Mitã</p>
           <h2>Educación vial que acompaña a los chicos hasta su primera licencia</h2>
           <p class="project-intro">
-            Un programa gamificado para estudiantes de 7 a 18 años, con currícula por edades, puntos, insignias, un torneo intercolegial y contenidos propios en YouTube.
+            Un programa gamificado para estudiantes de 7 a 18 años, con currícula por edades, puntos, insignias, un torneo intercolegial y contenidos propios en YouTube, donde Zorry y Tallerito acompañan a los más chicos.
           </p>
 
           <dl class="project-facts">
@@ -327,7 +327,7 @@
 
             <div class="form-grid">
               <label>
-                Nombre y apellido <span aria-hidden="true">*</span>
+                <strong class="lbl">Nombre y apellido <span aria-hidden="true">*</span></strong>
                 <input name="nombre" type="text" autocomplete="name" required />
               </label>
               <label>
@@ -343,7 +343,7 @@
                 <input name="telefono" type="tel" autocomplete="tel" />
               </label>
               <label class="form-full">
-                Motivo de contacto <span aria-hidden="true">*</span>
+                <strong class="lbl">Motivo de contacto <span aria-hidden="true">*</span></strong>
                 <select name="motivo" required>
                   <option value="">Seleccioná una opción</option>
                   <option>Quiero llevar Ikuaa Lo Mitã a mi colegio</option>
@@ -358,14 +358,27 @@
                 </select>
               </label>
               <label class="form-full">
-                Mensaje <span aria-hidden="true">*</span>
+                <strong class="lbl">Mensaje <span aria-hidden="true">*</span></strong>
                 <textarea name="mensaje" rows="5" required></textarea>
               </label>
             </div>
 
             <p class="form-help">Completá al menos un correo electrónico o un número de teléfono.</p>
+
+            <div class="form-trap" aria-hidden="true">
+              <label>No completar este campo <input name="sitio_web" type="text" tabindex="-1" autocomplete="off" /></label>
+            </div>
+
+            <label class="form-consent">
+              <input name="consentimiento" type="checkbox" value="si" required />
+              <span>
+                Autorizo a Mi Paraguay a usar los datos que ingreso en este formulario únicamente para responder mi consulta.
+                Más información en la <a href="privacidad/" target="_blank" rel="noopener">política de privacidad</a>. <b aria-hidden="true">*</b>
+              </span>
+            </label>
+
             <div class="form-actions">
-              <button class="button button-light" type="submit" data-channel="email">Enviar por correo</button>
+              <button class="button button-light" type="submit" data-channel="email">Enviar mensaje</button>
               <button class="button button-outline-light" type="submit" data-channel="whatsapp">Enviar por WhatsApp</button>
             </div>
             <p class="form-status" id="form-status" aria-live="polite"></p>
@@ -392,6 +405,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=20260921-audiencias"></script>
+    <script src="script.js?v=20261006-formulario"></script>
   </body>
 </html>
