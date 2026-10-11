@@ -68,6 +68,40 @@ nav a:hover { color: var(--orange); }
 h2 { margin: 0; color: var(--navy); font-size: clamp(2.5rem, 5.5vw, 5rem); line-height: 1.02; letter-spacing: -0.055em; }
 .section-lead { max-width: 920px; margin: 2rem 0 0; color: var(--muted); font-size: clamp(1.1rem, 2vw, 1.45rem); }
 .introduction { background: var(--white); }
+.community {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+  gap: clamp(2.5rem, 7vw, 7rem);
+  align-items: center;
+  background: #e7f5eb;
+  border-top: 1px solid rgba(56, 175, 75, .2);
+}
+.community .eyebrow { color: #237d38; }
+.community-copy > p:not(.eyebrow) {
+  max-width: 650px;
+  margin: 1.7rem 0 2rem;
+  color: #34566a;
+  font-size: clamp(1.08rem, 1.8vw, 1.3rem);
+}
+.community-card {
+  padding: clamp(2rem, 4vw, 3.5rem);
+  border-radius: 32px;
+  background: var(--navy);
+  color: var(--white);
+  box-shadow: 0 24px 60px rgba(10, 48, 102, .18);
+}
+.community-card-label {
+  display: block;
+  margin-bottom: 1.3rem;
+  color: #a5e4a8;
+  font-size: .78rem;
+  font-weight: 900;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.community-card strong { display: block; font-size: clamp(1.6rem, 2.7vw, 2.7rem); line-height: 1.13; letter-spacing: -.035em; }
+.community-card p { margin: 1.4rem 0 0; color: #d9e8f8; }
+.community-card .community-points { padding-top: 1.3rem; border-top: 1px solid rgba(255,255,255,.25); color: #fff2d2; }
 .section-heading { display: grid; grid-template-columns: 0.5fr 1.5fr; gap: 4rem; align-items: start; }
 .process { background: var(--paper); }
 .process-grid { list-style: none; margin: 4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--border); }
@@ -124,7 +158,7 @@ footer a { color: var(--white); font-weight: 850; }
   .process-grid { grid-template-columns: repeat(2, 1fr); }
   .process-grid li:nth-child(3n) { border-right: 1px solid var(--border); }
   .process-grid li:nth-child(2n) { border-right: 0; }
-  .audiences, .partnership, .beta { grid-template-columns: 1fr; }
+  .audiences, .partnership, .beta, .community { grid-template-columns: 1fr; }
   .audiences article, .audiences article:first-child, .audiences article:last-child { padding: 5rem 5vw; }
   .route { grid-template-columns: repeat(2, 1fr); }
   .route div:nth-child(2) { border-right: 0; }
